@@ -26,4 +26,4 @@ after_success:
   - docker push lanre039/udagram-api-feed:v1
   - docker push lanre039/udagram-api-user:v1
   - docker push lanre039/udagram-frontend:v2
-  - docker push lanre039/udagram-reverseproxy:v1
+  - docker push lanre039/reverseproxy:v1
