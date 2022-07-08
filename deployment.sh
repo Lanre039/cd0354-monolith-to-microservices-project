@@ -1,7 +1,6 @@
 kubectl apply -f aws-secret.yml
 kubectl apply -f env-secret.yml
 kubectl apply -f env-configmap.yml
-kubectl apply -f reverseproxy-deployment.yml
 kubectl apply -f frontend-deployment.yml
 kubectl apply -f api-feed-deployment.yml
 kubectl apply -f api-user-deployment.yml
@@ -9,3 +8,4 @@ kubectl apply -f frontend-service.yml
 kubectl apply -f api-feed-service.yml
 kubectl apply -f api-user-service.yml
 kubectl apply -f reverseproxy-service.yml
+kubectl apply -f reverseproxy-deployment.yml
