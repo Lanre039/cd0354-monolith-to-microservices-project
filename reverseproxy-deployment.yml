@@ -15,7 +15,7 @@ spec:
         service: udagram-reverseproxy
     spec:
       containers:
-        - image: lanre039/reverseproxy:v1
+        - image: lanre039/reverseproxy:v2
           name: udagram-reverseproxy
           imagePullPolicy: Always
           resources:
