@@ -15,8 +15,10 @@ spec:
         service: udagram-frontend
     spec:
       containers:
-        - image: lanre039/udagram-frontend:v6
+        - image: lanre039/udagram-frontend:v9
           name: udagram-frontend
+          ports:
+            - containerPort: 80
           imagePullPolicy: Always
           resources:
             requests:
