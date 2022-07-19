@@ -17,6 +17,13 @@ spec:
       containers:
         - image: lanre039/udagram-api-feed:v3
           name: backend-feed
+          resources:
+            limits:
+              memory: "1024Mi"
+              cpu: 500m
+            requests:
+              memory: "64Mi"
+              cpu: 250m
           imagePullPolicy: Always
           env:
             - name: URL
